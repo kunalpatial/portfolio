@@ -34,10 +34,12 @@ const Navbar = () => {
             {isOpen && (
                 <div className="md:hidden bg-black px-6 pb-4 animate__animated animate__fadeIn">
                     <ul className="flex flex-col gap-4 font-medium">
-                        <li className="hover:text-blue-400 cursor-pointer">Home</li>
-                        <li className="hover:text-blue-400 cursor-pointer">About</li>
-                        <li className="hover:text-blue-400 cursor-pointer">Projects</li>
-                        <li className="hover:text-blue-400 cursor-pointer">Contact</li>
+                        <li><a href="/" className="hover:text-blue-400 cursor-pointer">Home</a></li>
+                    <li><a href="#about" className="hover:text-blue-400 cursor-pointer">About</a></li>
+                    <li><a href="#skills" className="hover:text-blue-400 cursor-pointer">Skills</a></li>
+                    <li><a href="#projects" className="hover:text-blue-400 cursor-pointer">Projects</a></li>
+                    <li><a href="#experience" className="hover:text-blue-400 cursor-pointer">Experience</a></li>
+                    <li><a href="#contact" className="hover:text-blue-400 cursor-pointer">Contact</a></li>
                     </ul>
                 </div>
             )}

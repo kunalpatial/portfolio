@@ -20,13 +20,18 @@ const Home = () => {
           </p>
 
           <div className='mt-8 flex gap-6'>
-            <button className='bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg transition duration-300'>
-              View Projects
-            </button>
+            <a href="#projects">
+              <button className='bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg transition duration-300'>
+                View Projects
+              </button>
+            </a>
 
-            <button className="border border-gray-500 hover:border-blue-500 px-6 py-3 rounded-lg transition duration-300">
-              Contact Me
-            </button>
+            <a href="#contact">
+              <button className="border border-gray-500 hover:border-blue-500 px-6 py-3 rounded-lg transition duration-300">
+                Contact Me
+              </button>
+            </a>
+
           </div>
         </div>
 
